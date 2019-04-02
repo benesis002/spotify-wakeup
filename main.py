@@ -22,7 +22,7 @@ def spotireveil():
         cast.set_volume(0.1)
         device_id = None
 
-        data = st.start_session("111644649", "g0ksPbWr1n0aPo")
+        data = st.start_session("", "")
         access_token = data[0]
 
         client = spotipy.Spotify(auth=access_token)
